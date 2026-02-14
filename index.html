@@ -98,15 +98,17 @@
     </section>
 
     <!-- Clients Section -->
-    <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-[90px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-[70px]">
-        <div class="client-left space-y-5">
-            <h2 class="text-2xl font-bold text-white">Meet Our Super Clients</h2>
-            <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-            <button class="p-2 bg-white text-amber-700 rounded-md text-md font-semibold cursor-pointer"><span class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show All</span></button>
+    <section class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-26 lg:gap-8 mb-[90px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-[70px] rounded-xl">
+        <div class="client-left space-y-5 flex items-center">
+            <div class="space-y-5">
+                <h2 class="text-5xl font-bold text-white">Meet Our Super <br> Clients</h2>
+                <p class="text-white">There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't <br> look even slightly believable. </p>
+                <button class="p-2 bg-white text-amber-700 rounded-md text-md font-semibold cursor-pointer"><span class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show All</span></button>
+                </div>
         </div>
-        <div class="client-right">
+        <div class="client-right relative pl-[100px]">
             <!-- Riviev Cart -->
-            <div class="bg-white rounded-xl p-8 w-[433px] relative">
+            <div class="bg-white rounded-xl p-8 w-[200px] sm:w-[433px] absolute -left-[10px] top-[100px] z-50">
                 <p class="text-[#777777] mb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                 <h2 class="text-lg font-semibold">Ilham Yuda</h2>
                 <p class="text-[#777777]">Businessman</p>
@@ -116,7 +118,7 @@
                 <img src="./images/circles.png" alt="" class="absolute right-6 bottom-6">
             </div>
 
-            <div class="bg-white rounded-xl p-8 w-[433px] relative">
+            <div class="bg-white rounded-xl p-8 w-[200px] sm:w-[433px] relative mb-[50px] opacity-20">
                 <p class="text-[#777777] mb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                 <h2 class="text-lg font-semibold">Ilham Yuda</h2>
                 <p class="text-[#777777]">Businessman</p>
@@ -126,7 +128,7 @@
                 <img src="./images/circles.png" alt="" class="absolute right-6 bottom-6">
             </div>
             
-            <div class="bg-white rounded-xl p-8 w-[433px] relative">
+            <div class="bg-white rounded-xl p-8 w-[200px] sm:w-[433px] relative opacity-20">
                 <p class="text-[#777777] mb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                 <h2 class="text-lg font-semibold">Ilham Yuda</h2>
                 <p class="text-[#777777]">Businessman</p>
@@ -137,5 +139,49 @@
             </div>
         </div>
     </section>
+
+    <!-- footer -->
+    <footer class="bg-red-100 p-12">
+        <!-- footer top -->
+        <div class="container mx-auto flex justify-between">
+            <img src="./images/cup.png" alt="">
+            <div class="flex items-center gap-4">
+                <p>Ready to get strated?</p>
+                <button class="py-3 px-5 rounded-md bg-linear-to-r from-[#FF0000] to-[#FF8938] text-white font font-semibold">Get Started</button>
+            </div>
+        </div>
+
+        <!-- footer links -->
+        <div class="flex justify-between mt-10">
+            <ul class="space-y-1">
+                <li class="font-semibold">Quick Links</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Insurance</li>
+                <li>Privacy Policy</li>
+            </ul>
+
+            <ul class="space-y-1">
+                <li class="font-semibold">Our Service</li>
+                <li>Life Insurance</li>
+                <li>Car Insurance</li>
+                <li>Health Insurance</li>
+                <li>House Insurance</li>
+            </ul>
+
+            <ul class="space-y-1">
+                <li class="font-semibold">Help</li>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+            </ul>
+            
+            <div class="space-y-4">
+                <h2 class="font-semibold">Subscribe to our <br> newsletter</h2>
+                <input class="border border-amber-950 rounded-md py-2 px-4" type="email" placeholder="Your Email">
+                <!-- You cam put some social part here -->
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
